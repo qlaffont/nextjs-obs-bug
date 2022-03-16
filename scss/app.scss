@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./icons/icons.scss";
+@import "./icons/brands.scss";
+@import "./icons/illus.scss";
+
+@import "./lib/toastify.scss";
+@import "./lib/nprogress.scss";
+
+input[type="number"].appearance-none{
+  -moz-appearance:textfield;
+}
+

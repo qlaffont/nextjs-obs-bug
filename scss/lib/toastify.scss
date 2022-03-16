@@ -1,0 +1,9 @@
+@import '~react-toastify/dist/ReactToastify.min.css';
+
+.Toastify__toast-icon, .Toastify__close-button {
+  display: none;
+}
+
+.Toastify__toast-body > div {
+  width: 100%;
+}
